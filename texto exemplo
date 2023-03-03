@@ -1,13 +1,11 @@
-<Box alignItems="center">
-      <Box maxW="80" rounded="lg" overflow="hidden" borderColor="coolGray.200" borderWidth="1">
+<Box maxW="80" rounded="lg" overflow="hidden" borderColor="coolGray.200" borderWidth="1"  bg={'#042326'}>
         <HStack p="4" space={3}>
          
             
             <Icon as={FontAwesome} name="home"  alignItems="center" size={12} margin={5}/>
-            <Heading size="md" ml="-1" textAling={"center"} alignSelf="center">
-              The Garden City
+            <Heading size="md" ml="-1" textAling={"center"} alignSelf="center" color={'#41BFB3'}>
+              Adiconar Senha
             </Heading>
           
         </HStack >
       </Box>
-    </Box>;
